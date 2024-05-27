@@ -1,0 +1,21 @@
+import React from 'react';
+import './styles.css';
+import aboutImg from '/img2/about.png';
+
+const About = () => {
+    return (
+        <section className="about" id="about">
+            <div className="about-img">
+                <img src={aboutImg} alt="About" />
+            </div>
+            <div className="about-text">
+                <h2>Journey with us</h2>
+                <p>Learn about our mission to celebrate the rich and diverse food culture of Genshin Impact’s Teyvat, and meet the dedicated team of enthusiasts who bring these flavors to life. We are committed to providing authentic recipes, insightful content, and a community space for fans and food lovers alike.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Venim illo pa met consectetur adipiscing elit. Venim illo pa</p>
+                <a href="#" className="btn">About Us</a>
+            </div>
+        </section>
+    );
+};
+
+export default About;
